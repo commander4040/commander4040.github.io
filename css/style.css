@@ -1,6 +1,8 @@
 body {
 	font: 16px/1.5 sans-serif;
 	background: url(/img/background_texture.jpg) no-repeat rgb(230, 225, 215);
+	background-position: center top;
+	background-size: auto 100%;
 }
 .placeholder {
 	position: fixed;
