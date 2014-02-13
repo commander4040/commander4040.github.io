@@ -5,10 +5,15 @@ body {
 	background-size: auto 100%;
 }
 .placeholder {
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	width: 50%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.logo_image {
+    width: 150px;
 }
 h1 {
 	font-family: 'Pirata One', cursive;
