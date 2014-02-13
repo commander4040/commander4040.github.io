@@ -1,7 +1,26 @@
 body {
 	font: 16px/1.5 sans-serif;
+	color: #707070;
 	background: url(/img/background_texture.jpg) no-repeat rgb(230, 225, 215);
 	background-position: center top;
+}
+a {
+    color: black;
+}
+footer {
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+footer p {
+    font-size: 85%;
+    color: gray;
+}
+h1 {
+	font: 48px/1.5 'Pirata One', cursive;
+	text-shadow: 0px 1px 1px #4d4d4d;
 }
 .placeholder {
     width: 480px;
@@ -16,6 +35,4 @@ body {
 .logo_image {
     width: 150px;
 }
-h1 {
-	font: 48px/1.5 'Pirata One', cursive;
-}
+
