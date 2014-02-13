@@ -2,9 +2,10 @@ body {
 	font: 16px/1.5 sans-serif;
 	background: url(/img/background_texture.jpg) no-repeat rgb(230, 225, 215);
 	background-position: center top;
-	background-size: auto 100%;
 }
 .placeholder {
+    width: 480px;
+    height: 480px;
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -16,5 +17,5 @@ body {
     width: 150px;
 }
 h1 {
-	font-family: 'Pirata One', cursive;
+	font: 48px/1.5 'Pirata One', cursive;
 }
